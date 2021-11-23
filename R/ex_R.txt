@@ -1,0 +1,9 @@
+1. Existem 5 arquivos em txt com o sufixo filtro_. Eles são experimentos da relação entre a intensidade e o comprimento de onda utilizando diferentes cores de filtros. Crie funções em R para:
+    a. Ler todos os arquivos e criar um objeto do tiop data.frame com informações de todos os experimentos com cada um dos filtros;
+    b. Gerar um único gráfico de linhas com os dados do experimentos de todos os filtros com o comprimento de onda no eixo x e a intensidade no eixo y;
+
+2. Leia o arquivo MB_gene_epression.txt atribuindo o data.frame resultante para uma matrix numérica. Ele contém informações da expressão de vários genes (linhas) em várias amostras (colunas). Leia o arquivo MB_pData_rib.txt atribindo o data.frame resultante para uma variável. Note que a ordem das colunas da matriz de expressão é a mesma ordem do IDs dos pacientes na tabela das informações clínicas e patológicas. Crie funções para:
+    a. Fazer a estatística da expressão de cada um dos genes para o o seguinte teste de hipótese (usar o teste t):
+        H0: a expressão do gene xi nas amostras do gupo A == a expressão do gene xi nas amostras do grupo B;
+        H1: a expressão do gene xi nas amostras do gupo A != a expressão do gene xi nas amostras do grupo B;
+    b. Criar um boxplot para cada um dos genes diferencialmente expressos (considere o valor de p< 0.05).

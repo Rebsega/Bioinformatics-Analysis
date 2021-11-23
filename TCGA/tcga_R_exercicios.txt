@@ -1,0 +1,9 @@
+Na última aula nés carregamos 3 arquivos do banco de dados do TCGA de amostras de Carcinossarcoma Uterino. Um arquivo tem dados clínicos e da patologia, o outro tem dados sobre mutação e o outro é uma matriz de expressão de todos os genes (RNAseq). 
+
+1. Crie uma função para mostrar os 10 genes mais frequentemente mutados nesses tumores.
+2. Crie uma função que retorna qual a classificação das variantes (Variant_Classification) em cada um dos Top 10 genes.
+3. Veja que os genes tem diferentes proporções de variantes. Qual seria o significado biológico desta observação?
+4.  Crie uma função que retorna quais os exons (Exon_Number) estão acometido em cada um dos Top 10 genes.
+5. Você vai ver que em alguns genes as mutações ocorrem em múltiplos exons, em outros, eles ocorrem em um número limitado de exons. Você acha que isto tem alguma implicação biológica? Explique.
+6. Classifique os tumores baseado na presença ou ausência de mutação em cada um dos 10 Top genes e coloque esta informação na tabela de dados clínicos. Ou seja, você terá que inserir 10 colunas na tabela e ela vai ter a informação se a amostra tem ou não a mutação no gene. Incluir somente se a mutação for dos tipos Frame_Shift_Del Frame_Shift_Ins, Missense_Mutation, Nonsense_Mutation e Splice_Site.
+7. Crie uma função para plotar a expressão dos genes baseado na presença ou não de mutação (boxplot) e para gerar uma análise estatística onde H0: a expressão do gene Xi é a mesma em amostras com e sem mutação e H1: a expressão do gene Xi é diferente entre as amostras com e sem mutação.
