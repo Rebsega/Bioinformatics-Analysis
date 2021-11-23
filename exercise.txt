@@ -1,0 +1,13 @@
+Dado uma sequência de nucleotídoes referente ao gene S do vírus SarsCov-2 isolado em Wuhan (gene_S_Wuhan.fasta), crie funções ou classes em Python para as seguintes tarefas:
+
+1. Verificar a proporção de C e G (GC content) na sequência;
+2. Converter a sequência de nucleotídeos na respectiva sequência proteica (https://www.khanacademy.org/science/ap-biology/gene-expression-and-regulation/translation/a/the-genetic-code-discovery-and-properties);
+3. Verificar se uma outra sequência curta de nucleotídeos, passada pelo usuário do seu sistema, está presente no gene S e, se positivo, indicar o índice do início da sequência.
+
+Dado uma nova sequência do mesmo gene S que foi sequenciado eno Brazil em 2021 (gene_S_Brazil.fasta), crie funções ou classes em Python para as seguintes tarefas:
+
+1. Comparar a sequência de nucleotídeos com a sequência de Wuhan;
+2. Comparar a sequenciado proteica com a sequência de Wuhan;
+3. Mostrar as principais alterações (qual nucleotídeo / aminoácido foi substituído e qual a posição / index da substituição)
+
+Obs.: Além do arquivo em FASTA, que é o formato padrão em que as sequências são armazenadas, eu salvei as sequências em uma única "string" nos arquivos TXT para aqueles que tiverem dificuldades de ler o arquivo FASTA.  
